@@ -1,0 +1,16 @@
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - pillow
+    - gunicorn
+    - numpy
+    - python=3.8.10
+    - pip
+    - pip:
+        - h5py=3.7.0
+        - keras
+        - azureml-defaults
+        - pillow
+        - inference-schema[numpy-support]
+RUN pip ins
